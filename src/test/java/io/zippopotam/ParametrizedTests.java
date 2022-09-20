@@ -2,12 +2,10 @@ package io.zippopotam;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 
-import org.junit.jupiter.api.Test;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Chapter3ParametrizedTests {
+public class ParametrizedTests {
 
     @CsvSource(value = {
             "us,90210,Beverly Hills",

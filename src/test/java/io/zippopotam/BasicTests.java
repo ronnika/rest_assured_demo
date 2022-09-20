@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class Chapters1and2Tests {
+public class BasicTests {
 
     @Test
     public void requestZipCodeExpectBeverlyHills() {
